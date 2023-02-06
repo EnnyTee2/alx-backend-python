@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
-"""
-Returning an asyncio task
-"""
+"""Returning an asyncio task"""
 import asyncio
 
 
