@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-'''
+"""
 Executing multiple coroutines simultaneosly with async
-'''
+"""
 import asyncio
 import time
 
