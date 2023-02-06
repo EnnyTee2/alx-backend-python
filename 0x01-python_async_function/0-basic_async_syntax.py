@@ -5,6 +5,7 @@
 import asyncio
 import random
 
+
 async def wait_random(max_delay: int = 10.0) -> float:
     """
     an asynchronous coroutine that takes in an integer argument
