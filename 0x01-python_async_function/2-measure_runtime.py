@@ -13,8 +13,8 @@ def measure_time(n: int, max_delay: int):
     """
     Measures the total execution time for the wait_n function
     """
-    start = time.perf_counter()
+    start = time.time()
     wait_n(n, max_delay)
-    total_time = time.perf_counter() - start
+    total_time = time.time() - start
 
     return (total_time / n)
